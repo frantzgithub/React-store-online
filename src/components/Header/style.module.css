@@ -1,0 +1,20 @@
+.flexbox{
+    height: 94px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-input);
+}
+.flexbox img{
+    width: 200px;
+}
+
+@media (min-width:860px ){
+    .flexbox{
+        height: 124px;
+    }
+    .flexbox img{
+        width: 350px;
+    }
+}
